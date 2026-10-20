@@ -1,0 +1,92 @@
+
+header {
+    position: relative;
+    min-height: 160px;
+    background-color: #337ab7;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-variant: small-caps;
+}
+
+.shopping-mall h1 {
+    font-family: Impact, sans-serif;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted gray;
+    margin: 0;
+}
+
+.shopping-mall h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.header-image {
+    max-height: 140px;
+    max-width: 35%;
+}
+
+.poly-cart {
+    margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding-left: 15px;
+    margin: 0;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart img {
+    max-width: 100%;
+    height: auto;
+}
+
+.poly-prod {
+    text-align: center;
+    padding: 5px;
+}
+
+.poly-prod .panel-body img {
+    height: 150px;
+    max-width: 95%;
+    object-fit: contain;
+}
+
+.poly-prod .panel-heading {
+    font-weight: bold;
+}
+
+.poly-prod .panel-footer {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .shopping-mall {
+        position: relative;
+        bottom: auto;
+        left: auto;
+    }
+
+    .shopping-mall h1 {
+        font-size: 27px;
+    }
+
+    .header-image {
+        display: none;
+    }
+}
