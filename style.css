@@ -1,0 +1,63 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Carousel images */
+.hero-image {
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(65%);
+}
+
+.carousel-caption {
+    bottom: 25%;
+}
+
+/* Welcome section */
+#about {
+    min-height: 180px;
+}
+
+/* Service icons */
+.service-icon {
+    font-size: 45px;
+    color: #0d6efd;
+}
+
+/* Service cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact form */
+.contact-form {
+    max-width: 600px;
+}
+
+/* Responsive layout for phones */
+@media (max-width: 576px) {
+    .hero-image {
+        height: 280px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 24px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
